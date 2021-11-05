@@ -1,0 +1,299 @@
+
+body {
+    display: grid;
+    grid-template-areas: 
+        "header"
+        "nav"
+        "aside"
+        "footer";
+}
+header {
+top: 15px;
+background-color: black;
+color: yellow;
+height: 70px;
+z-index: 1;
+width: 100%;
+}
+header img {  
+float: left;
+width: 40px;
+height: 40px;
+margin-left: 50px;
+margin-top: 10px;
+}
+header img:hover {
+    width: 50px;
+    height: 50px;
+}
+header > h1 {
+margin: 10px;
+text-align: center;
+}
+.dropdown {
+display: inline-block;
+position: relative;
+width: 100%;
+}
+.dropdown-btn {
+background: lightcoral;
+color: black;
+text-decoration-line: underline;
+border: none;
+cursor: pointer;
+margin: 0;
+}
+.dropdown-content {
+box-shadow: rgb(46, 51, 46);
+display: none;
+position: absolute;
+background-color: rgb(223, 226, 220);
+z-index: 0;
+}
+.dropdown-content a {
+color: black;
+text-decoration: none;
+display: block;
+}
+.dropdown-content a:hover {
+background-color: rgb(83, 15b1, 240);
+color: black;
+}
+.dropdown:hover .dropdown-content {
+display: block;
+}
+.dropdown:hover .dropdown-btn {
+background: rgb(247, 163, 163);
+font-family: inherit;
+color: white;
+}
+.cover-top {
+list-style: none;
+background: lightcoral;
+margin: 0;
+}
+.cover-top li {
+   display: inline-block;
+}
+.cover-top li a {
+   display: block;
+   padding: 10px 10px;
+   color: black
+}
+.cover-top a:hover{
+  background: rgb(247, 163, 163);
+  color: white;
+ }
+.cover {
+    display: grid;
+    background-image: url(images/image1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0; 
+    padding: 2px;
+    min-height: 120vh;
+    text-align: center;
+    align-content: space-between;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu-item {
+    margin: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    width: 100px;
+    align-items: center;
+}
+.menu-item:hover {
+    background-color: white;
+    color: black;
+}
+.article-nav {
+    display: flex;
+    flex-direction: row;
+    color: yellow;
+    justify-content: right;
+    /* background: rgb(247, 169, 169); */
+    background: linear-gradient(to left, #C8E3D4, #B5DEFF, #FFBCBC); 
+    margin-left: 100px;
+    justify-content: space-around;
+}
+.article-nav a {
+    padding: 10px;
+    text-decoration: none;
+}
+.article1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+}
+.imgfirst {
+    height: 450px;
+    width: 550px;
+}
+.img2nd {
+    width: 100%;
+    margin-left: 90px;
+    margin-bottom: 100px;
+}
+.item1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+    background-image: url(images/tubbataha2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:black
+}
+.item2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: aquamarine;
+}
+.item3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+    background-image: url(images/tinipak2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: orangered
+}
+.item4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+    background-color: palegreen;
+}
+.item5 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+    background-image: url(visayas-photos/boracay2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:black
+}
+.item6 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+    background-color: palegoldenrod;
+    opacity: ;
+}
+
+.item7 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+    background-image: url(visayas-photos/kawasanfalls2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: orangered
+}
+.item8 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+    background-color: palegreen;
+}
+.item9 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+    background-image: url(mindanao-photos/tinagofalls2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:black
+}
+.item10 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+    background-color: paleturquoise;
+}
+.item11 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+    background-image: url(mindanao-photos/enchantedriver2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: orangered
+}
+.item12 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+    background-color: palegreen;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cover-nav {
+    background-color: #C8E3D4; 
+       /* background: linear-gradient(to left, #C8E3D4, #B5DEFF, #FFBCBC); */
+   display: flex;
+   margin: 0;
+   justify-content: space-around;
+   color: #C37B89;
+}
+.cover-nav a:hover {
+   background-color: #87AAAA;
+   color: #69DADB;
+}
+footer {
+    list-style: none;
+    display: grid;
+    background-color: black;
+    color: yellow;
+    font-size: 12px;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 20px; 
+} 
+footer li {
+    display: inline-block;
+    justify-content: space-around;
+    color: white;
+}
+footer a {
+display: block;
+padding: 10px 10px;
+color: white;
+}
+ footer a:hover { 
+     background-color: white; 
+     color: black 
+ } 
+footer img {
+width: 40px;
+height: 40px;
+}
